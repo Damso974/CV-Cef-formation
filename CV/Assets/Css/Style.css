@@ -1,0 +1,134 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+</style>h3 {
+    background-color: bisque;
+    color: black;
+    font-family: "Laito";
+}
+
+section#T {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: normal;
+    background-color: brown;
+}
+
+section#GaucheR {
+    color: rgba(223, 223, 204, 0.959);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    border: 50px;
+    border-color: brown;
+
+
+}
+
+#infoperso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+
+}
+
+Section#DroiteB {
+    background-color: aliceblue;
+    height: 100%;
+    width: 60%;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    margin-bottom: 100px;
+}
+
+body {
+    margin: auto;
+    width: 1160px;
+    border: 20px;
+    color: black;
+    font-family: "Raleway";
+    border-right: color(black);
+
+
+}
+
+
+section#info {
+    background-color: brown;
+}
+
+article#db {
+    height: auto;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+img {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    cursor: zoom-in;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 35%;
+    border-radius: 40px;
+    border: 3px solid black;
+    box-shadow: 50px 50px color rgba(0, 255, 34, 0.064);
+}
+
+figcaption {
+    margin-left: 35%;
+    margin-right: 35%;
+    color: aliceblue;
+    font-size: 28px;
+    margin-left: 40%;
+    margin-right: 35%;
+}
+
+h2 {
+    margin-left: 40%;
+    margin-right: 35%;
+    color: aliceblue;
+}
+
+p#ad {
+    margin-left: 0%;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../Font/Raleway/Raleway-Regular.ttf);
+}
+
+h1 {
+    font-family: "Lato";
+}
+
+h2 {
+    font-family: "Lato";
+}
+
+h3 {
+    font-family: "Lato";
+}
+
+h4 {
+    font-family: "Lato";
+}
